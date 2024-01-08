@@ -1,4 +1,4 @@
 // Shifted resources to cloudinary
-export const loaderImage = "https://res.cloudinary.com/duxhnzvyw/image/upload/v1704723456/2024%20Portfolio%20Website%20Assets/Chat%20Application/qkmugz5a90ekqdoc4m9z.gif"
-// export const logoImage = "https://res.cloudinary.com/duxhnzvyw/image/upload/v1704723456/2024%20Portfolio%20Website%20Assets/Chat%20Application/garzc4z8cvfe8l2fkyeu.svg"
-export const robotImage = "https://res.cloudinary.com/duxhnzvyw/image/upload/v1704723456/2024%20Portfolio%20Website%20Assets/Chat%20Application/ktbmou6i8kdxpvvzju3l.gif"
+export const loaderImage = process.env.REACT_APP_LOADER_IMAGE
+export const logoImage = process.env.REACT_APP_LOGO_IMAGE
+export const robotImage = process.env.REACT_ROBOT_IMAGE

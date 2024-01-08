@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { robotImage } from "../assets";
-// import Robot from "../assets/robot.gif";
 export default function Welcome() {
   const [userName, setUserName] = useState("");
   useEffect(() => {
