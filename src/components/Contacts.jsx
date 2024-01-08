@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+// import { logoImage } from "../assets";
 import Logo from "../assets/logo.svg";
 
 export default function Contacts({ contacts, changeChat }) {
