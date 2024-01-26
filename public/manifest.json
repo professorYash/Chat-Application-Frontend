@@ -1,0 +1,16 @@
+{
+  "short_name": "Chat App",
+  "name": "Chat Application",
+  "description": "Platform with multiple channels for the people to have a conversation.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "%PUBLIC_URL%/icons8-chat-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}
